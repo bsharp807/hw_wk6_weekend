@@ -1,0 +1,21 @@
+.board {
+  display: grid;
+}
+
+.top-row {
+
+  grid-column: 1 / span 4;
+  grid-row: 1
+}
+
+.middle-row {
+
+  grid-column: 1 / 4;
+  grid-row: 2
+}
+
+.bottom-row {
+
+  grid-column: 1 / 4;
+  grid-row: 3
+}
