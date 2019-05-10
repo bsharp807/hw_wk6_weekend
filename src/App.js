@@ -1,12 +1,12 @@
 import React from 'react';
-import Game from './containers/Game.js';
+import Main from './components/main.js';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <h1>WORLD CHAMPIONSHIP TICTACTOE FINALS!</h1>
-      <Game />
+      <Main />
     </div>
   );
 }
