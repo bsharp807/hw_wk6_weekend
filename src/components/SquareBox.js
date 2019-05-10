@@ -16,13 +16,13 @@ class SquareBox extends Component {
   sortClass(i) {
     switch(i) {
       case 0:
-        return 'top-row-0';
-        break;
-      case 1:
         return 'top-row-1';
         break;
-      case 2:
+      case 1:
         return 'top-row-2';
+        break;
+      case 2:
+        return 'top-row-3';
         break;
       case 3:
         return 'middle-row-1';

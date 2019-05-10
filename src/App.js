@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>What have I got myself into?</h1>
+      <h1>WORLD CHAMPIONSHIP TICTACTOE FINALS!</h1>
       <Game />
     </div>
   );

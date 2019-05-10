@@ -12,9 +12,7 @@ class GridBox extends Component {
 
   renderSquares() {
     const gameState = this.props.grid;
-    console.log(gameState);
     return gameState.map((condition, index) => {
-      console.log(condition, index);
       return(
         <SquareBox
         value={condition}
